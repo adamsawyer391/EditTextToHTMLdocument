@@ -1,0 +1,2 @@
+# EditTextToHTMLdocument
+Takes the text from an EditText and converts it into an HTML file complete with basic boilerplate code. Saves it as an .html file in your app's directory and then creates an intent chooser to open the share sheet. I have some difficulty sharing it to gmail, but I can save it to my google drive without a problem. The contents of the EditText can then be viewed as a web page in a browser.
