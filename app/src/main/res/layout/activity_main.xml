@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:id="@+id/etHTML"
+        android:layout_centerInParent="true"
+        android:maxLines="10"
+        android:lines="10"
+        android:gravity="start"
+        android:background="@drawable/edit_text_border"
+        android:layout_margin="20dp"
+        android:inputType="textCapSentences|textMultiLine"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit"
+        android:layout_below="@id/etHTML"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:text="CONVERT TO HTML"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+</RelativeLayout>
